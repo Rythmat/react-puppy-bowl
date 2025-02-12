@@ -1,0 +1,125 @@
+img {
+  height: 70vh;
+}
+
+#details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#details > h1 {
+  margin-bottom: 0;
+}
+
+#details > h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#detail > p {
+  margin: 0;
+}
+
+a {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  text-decoration: none;
+}
+
+#navbar {
+  padding: 2vw;
+  color: #31250A;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #DA9219;
+}
+
+#error {
+  margin-top: 0;
+  color: red;
+}
+
+#roster {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#roster label {
+  align-self: baseline;
+}
+
+#teams {
+  display: flex;
+  height: 70vh;
+  justify-content: space-around;
+}
+
+#ruff {
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: #122645;
+  width: 50%;
+  height: 100%;
+}
+
+#ruff h1 {
+  align-self: center;
+}
+
+#fluff {
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: #575002;
+  width: 50%;
+  height: 100%;
+}
+
+#fluff h1 {
+  align-self: center;
+}
+
+#fluff:hover {
+  outline:1vh double white;
+  cursor: pointer;
+  position: relative;
+}
+
+#ruff:hover {
+  outline:1vh double white;
+  cursor: pointer;
+  position: relative;
+}
+
+#register {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#register > form {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  padding: 2vh;
+  margin: 2vh;
+}
+
+#register > form > * {
+  padding: 1vh;
+}
+
+#report {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
